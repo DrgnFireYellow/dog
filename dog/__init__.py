@@ -7,3 +7,5 @@ app = typer.Typer()
 def dog(file: str):
     with open(file) as f:
         rich.print(f.read())
+
+app()
